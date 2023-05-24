@@ -2,4 +2,18 @@
     --header-color: rgb(177, 211, 218);
     --secondary-color: rgb(236, 170, 108);
   }
+
+  *,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
   
