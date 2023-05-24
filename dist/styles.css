@@ -1,6 +1,7 @@
 :root {
     --header-color: rgb(177, 211, 218);
-    --secondary-color: rgb(236, 170, 108);
+    --secondary-color: rgb(235, 177, 123);
+    --dark-color:rgb(31, 29, 29);
   }
 
   *,
@@ -15,5 +16,43 @@ html {
     position: relative;
     min-height: 100%;
   }
+
+  body {
+    
+    color: var(--dark-color);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 48px;
+  }
+  
+  button,
+input {
+  border: none;
+  /*color: inherit;*/
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+
+  /* Header */
+
   
   
