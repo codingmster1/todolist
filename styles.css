@@ -1,6 +1,6 @@
 :root {
-    --header-color: rgb(177, 211, 218);
-    --secondary-color: rgb(235, 177, 123);
+    --header-color: rgb(223, 243, 247);
+    --secondary-color: rgb(252, 200, 151);
     --dark-color:rgb(31, 29, 29);
   }
 
@@ -53,6 +53,50 @@ button {
   }
 
   /* Header */
+
+  .header {
+    grid-column: 1 / 3;
+    background-color: var(--header-color);
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*color: var(--color1);*/
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    /*gap: 10px*/
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 60px;
+    
+}
+
+.page-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+  }
+
+  .button-open-nav {
+    display: none;
+    width: 40px;
+    padding: 0;
+    background-color: var(--primary-dark);
+    font-size: 40px;
+  }
+  
+  .button-open-nav i {
+    margin-right: 0;
+  }
+
+  /* Main */
 
   
   
