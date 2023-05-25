@@ -195,9 +195,75 @@ button {
   gap: 20px;
 }
 .button-add-project-popup {
-  border: 1px solid #99dd99;
-  background-color: #aaffaa;
+  border: 1px solid #ddbd99;
+  background-color: #ddbd99;
   font-weight: bold;
+}
+
+.button-cancel-project-popup {
+  border: 1px solid #ddbd99;
+  background-color: #ddbd99;
+  font-weight: bold;
+}
+
+.button-add-project-popup:hover {
+  background-color: var(--secondary-color);
+}
+
+.button-cancel-project-popup:hover {
+  background-color: var(--secondary-color);
+}
+
+.project-preview {
+  width: 900px;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+
+.project-preview h1 {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.button-task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--secondary-color-active);
+  cursor: default;
+}
+
+.button-task:hover {
+  background-color: var(--secondary-color-active);
+}
+
+.left-task-panel {
+  display: flex;
+  align-items: center;
+}
+
+.fa-circle {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.task-content {
+  cursor: pointer;
+}
+
+.task-content.active {
+  display: none;
+}
+
+.input-task-name {
+  display: none;
+  height: 24px;
+  padding: 5px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color-active);
+  color: inherit;
+  font-family: inherit;
 }
 
 
