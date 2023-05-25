@@ -183,7 +183,22 @@ button {
   display: block;
 }
 
+.input-add-project-popup {
+  border: 1px solid var(--secondary-color-active);
+  margin-bottom: 10px;
+}
 
+.add-project-popup-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.button-add-project-popup {
+  border: 1px solid #99dd99;
+  background-color: #aaffaa;
+  font-weight: bold;
+}
 
 
   
