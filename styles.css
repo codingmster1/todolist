@@ -85,7 +85,7 @@ button {
   }
 
   .button-open-nav {
-    display: none;
+    display: block;
     width: 40px;
     padding: 0;
     background-color: var(--primary-dark);
@@ -144,7 +144,7 @@ button {
   }
 
   .button-add-project.active {
-    display: none;
+    display: block;
   }
 
   .button-project.active,
@@ -160,7 +160,7 @@ button {
 }
 
 .right-project-panel {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .button-project:hover .right-project-panel {
@@ -172,7 +172,7 @@ button {
 }
 
 .add-project-popup {
-  display: none;
+  display: block;
   width: 100%;
   padding: 10px;
   text-align: center;
