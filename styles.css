@@ -160,5 +160,30 @@ button {
   background-color: var(--secondary-color-active);
 }
 
+.right-project-panel {
+  visibility: hidden;
+}
+
+.button-project:hover .right-project-panel {
+  visibility: visible;
+}
+
+.fa-times {
+  margin-right: 0;
+}
+
+.add-project-popup {
+  display: none;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.add-project-popup.active {
+  display: block;
+}
+
+
+
 
   
