@@ -1,6 +1,7 @@
 :root {
     --header-color: rgb(223, 243, 247);
-    --secondary-color: rgb(252, 200, 151);
+    --secondary-color: rgb(245, 194, 174);
+    --secondary-color-active: rgb(241, 153, 117);
     --dark-color:rgb(31, 29, 29);
   }
 
@@ -98,5 +99,54 @@ button {
 
   /* Main */
 
+  .main {
+    display: flex;
+    min-height: calc(100vh - 104px - 48px); 
+  }
+
+  .nav {
+    width: 300px;
+    min-width: 250px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+  }
   
+  .nav.active {
+    display: block;
+  }
+
+  .button-default-project {
+    background-color: var(--secondary-color);
+    text-align: left;
+  }
+
+  .fa-inbox {
+    margin-right: 6px;
+  }
+
+  .projects-title {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .button-project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    text-align: left;
+  }
+
+  .button-add-project {
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: var(--secondary-color);
+    text-align: left;
+  }
+
+  .button-add-project.active {
+    display: none;
+  }
+
+
   
