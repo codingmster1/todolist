@@ -398,7 +398,8 @@ button {
 @media (max-width: 650px) {
   .button-open-nav {
     display: block;
-    margin-left: 60px;
+    right: 0;
+    position: fixed;
   }
   .header img {
     width: 50px;
